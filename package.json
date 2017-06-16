@@ -1,0 +1,25 @@
+{
+  "name": "dext-system-plugin",
+  "version": "0.1.0",
+  "description": "Dext plugin to execute system commands.",
+  "keywords": [
+    "dext",
+    "dext-plugin",
+    "system",
+    "info",
+    "app",
+    "battery"
+  ],
+  "main": "index.js",
+  "author": "Justin Chang <justin.p.chang@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinpchang/dext-system-plugin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "osx-app": "^2.0.0",
+    "osx-battery": "^4.0.0",
+    "osx-info": "^1.1.0"
+  }
+}
